@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ArrayVsSet}",
+            "name": "Debug ArrayVsSetBenchmark",
+            "program": "${workspaceFolder:ArrayVsSet}/.build/debug/ArrayVsSetBenchmark",
+            "preLaunchTask": "swift: Build Debug ArrayVsSetBenchmark"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ArrayVsSet}",
+            "name": "Release ArrayVsSetBenchmark",
+            "program": "${workspaceFolder:ArrayVsSet}/.build/release/ArrayVsSetBenchmark",
+            "preLaunchTask": "swift: Build Release ArrayVsSetBenchmark"
+        }
+    ]
+}
